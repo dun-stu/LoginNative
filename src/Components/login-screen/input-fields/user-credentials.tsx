@@ -57,7 +57,7 @@ const InputForm = () => {
   
   return (
     <InputFormContainer>
-      <InputField handleChange = {SetUsername} label = {'username and password and more and more and more and more'}/>
+      <InputField handleChange = {SetUsername} label = {'.............'} textInputSize = {2}/>
       <InputField handleChange = {SetPassword} label = {'password'}/>
       <Submit credentials = {[CurrentUsernameInput, CurrentPasswordInput]}/>
     </InputFormContainer>

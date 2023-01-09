@@ -25,6 +25,7 @@ export const UserCredentialContainer = styled.View`
 `;
 
 export const UserCredentialLabel = styled.Text<LabelProps>`
+   font-family: monospace;
    line-height: 25px;
    width: 150px;
    border-width: 3px;
